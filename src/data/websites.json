@@ -1,0 +1,67 @@
+[
+  {
+    "id": 5,
+    "modalId": "ssp",
+    "picThumb": "../assets/studio_session_planner_sm.jpg",
+    "picLg1": "../assets/studio_session_planner_lg.jpg",
+    "picLg2": "../assets/studio_session_planner_2_lg.jpg",
+    "picLg3": "",
+    "title": "Studio Session Planner",
+    "url": "https://studio-session-planner.web.app/",
+    "github": "https://github.com/alandavidhenry/studio-session-planner",
+    "tech": "HTML, CSS, Bootstrap, TypeScript, Angular, Firebase database",
+    "desc": "A work-in-progress web-based app that is being devoloped to replace an Excel spreadsheet that was being used in by The Band of The Coldstream Guards to plan recording studio sessions. The Angular framework was chosen due to its ability to easily pass data between the many components needed for this project. The data is stored in a Firebase Firestore database."
+  },
+  {
+    "id": 4,
+    "modalId": "mba",
+    "picThumb": "../assets/mess_booking_app_sm.jpg",
+    "picLg1": "../assets/mess_booking_app_lg.jpg",
+    "picLg2": "../assets/mess_booking_app_lg.jpg",
+    "picLg3": "",
+    "title": "Sergeants' Mess Room and Meal Booking App",
+    "url": "https://mess-booking-app.web.app/",
+    "github": "https://github.com/alandavidhenry/mess-booking-app",
+    "tech": "HTML, CSS, Bootstrap, TypeScript, Angular, Firebase database",
+    "desc": "A work-in-progress web-based app that that can be used to book room and meals in the Sergeants' Mess in an Army barracks. The Angular framework was chosen due to its ability to easily pass data between the many components needed for this project. The data is stored in a Firebase Firestore database."
+  },
+{
+    "id": 3,
+    "modalId": "gob",
+    "picThumb": "../assets/goblin_store_sm.jpg",
+    "picLg1": "../assets/goblin_store_lg.jpg",
+    "picLg2": "../assets/goblin_store_2_lg.jpg",
+    "picLg3": "",
+    "title": "The Goblin Store",
+    "url": "https://wywm-gobblin-store.web.app/index.html",
+    "github": "https://github.com/alandavidhenry/WYWM-Intermediate-Web-Development",
+    "tech": "HTML, CSS, Bootstrap, jQuery, Firebase",
+    "desc": "A website created during the Intermediate Web Development course offered by With You With Me.I completed this course before being offered a role as a Full Stack Developer with With You With Me. It uses Boostrap to assist with the layout and the data is sotred in a Firebase Realtime database."
+  },
+  {
+    "id": 2,
+    "modalId": "acw",
+    "picThumb": "../assets/aircraft_warehouse_sm.jpg",
+    "picLg1": "../assets/aircraft_warehouse_lg.jpg",
+    "picLg2": "../assets/aircraft_warehouse_2_lg.jpg",
+    "picLg3": "",
+    "title": "Aircraft Warehouse",
+    "url": "https://aircraft-warehouse.web.app/",
+    "github": "https://github.com/alandavidhenry/aircraft-warehouse",
+    "tech": "HTML, CSS, Bootstrap, JavaScript",
+    "desc": "A sinple webpage created for the final assignment of the web developer module as part of the JHub Coding Scheme. This scheme aims to give serving personnel the opportunity to gain valuable coding and AI skills, whilst getting paid to do so, so that they might use these skills to enable an information advantage. The website used JavaScript to calculate the costs for different aircraft and their optional extras."
+  },
+  {
+    "id": 1,
+    "modalId": "phf",
+    "picThumb": "../assets/pike_house_farm_sm.jpg",
+    "picLg1": "../assets/pike_house_farm_lg.jpg",
+    "picLg2": "../assets/pike_house_farm_2_lg.jpg",
+    "picLg3": "",
+    "title": "Pike House Farm",
+    "url": "http://www.pikehousefarm.co.uk",
+    "github": "",
+    "tech": "HTML, CSS, Bootstrap, jQuery",
+    "desc": "A website created to showcase a friend's farm located in the Pennine Hills near Manchester. They supply locally reared meat to nearby butchers and also offer meat packs for local customers."
+  }
+]

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:wght@300&display=swap');
+  // --bs-body-font-family: 'Bebas Neue', sans-serif;
+  // --bs-body-font-family: 'Mulish', sans-serif;
+
+// @import "../node_modules/bootstrap/scss/bootstrap";
+// :root {
+//   --bs-nav-link-font-size: 2rem;
+// }
+
+$body-bg: #d8d0c1;
+$font-family-sans-serif: 'Mulish', sans-serif;
+$headings-font-family: 'Bebas Neue', sans-serif;
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 6;
+$h2-font-size: $font-size-base * 3.1;
+$nav-link-font-size: $font-size-base * 2;
+$nav-link-color: #252d22;
+
+@import "./node_modules/bootstrap/scss/bootstrap"
+
+

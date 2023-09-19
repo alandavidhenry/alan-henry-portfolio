@@ -1,0 +1,15 @@
+@use '../variables.scss' as v;
+
+.card {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  background: v.$bg1;
+  // background-image: url(/assets/noise20.png);
+}

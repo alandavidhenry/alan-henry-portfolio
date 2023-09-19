@@ -1,0 +1,43 @@
+@use '../variables' as v;
+
+.noise{
+  background: v.$bg1;
+  // background-image: url(/assets/noise20.png);
+}
+
+h1, h2 {
+  color: v.$h-color-1;
+}
+
+.sm-text {
+  font-size: 0.8rem;
+}
+
+.header, .content {
+  max-width: 1400px;
+}
+
+.content {
+  height: 70vh;
+}
+
+.footer {
+  background: v.$bg1;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(100%)
+}
+
+.carousel-item {
+  cursor: pointer;
+}
+
+.nav-link {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.alan-henry, .full-stack {
+  cursor: pointer;
+}
+
