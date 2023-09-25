@@ -1,12 +1,11 @@
 @use '../variables' as v;
 
-.noise{
-  background: v.$bg1;
-  // background-image: url(/assets/noise20.png);
+.banner{
+  background: v.$dark-green;
 }
 
-h1, h2 {
-  color: v.$h-color-1;
+h1, h2, h3, p {
+  color: v.$dark-green;
 }
 
 .sm-text {
@@ -22,7 +21,11 @@ h1, h2 {
 }
 
 .footer {
-  background: v.$bg1;
+  background: v.$dark-green;
+}
+
+.media-links {
+  color: v.$dark-cream;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -35,9 +38,43 @@ h1, h2 {
 
 .nav-link {
   font-family: 'Bebas Neue', sans-serif;
+  color: v.$dark-green;
 }
 
-.alan-henry, .full-stack {
+.alan-henry {
+  color: v.$bright-green;
   cursor: pointer;
 }
 
+.full-stack {
+  color: v.$dark-cream;
+  cursor: pointer;
+}
+
+.modal {
+  background-color: v.$light-cream;
+}
+
+.modal-title {
+  color: v.$dark-green;
+}
+
+.carousel-inner {
+  border: solid 1px v.$dark-green-opacity;
+}
+
+.green-link {
+  color: v.$dark-green;
+}
+
+.green-link:hover {
+  text-shadow:
+    -0.3px -0.3px 0 v.$dark-green,
+    0.3px -0.3px 0 v.$dark-green,
+    -0.3px 0.3px 0 v.$dark-green,
+    0.3px 0.3px 0 v.$dark-green;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}

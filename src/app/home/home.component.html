@@ -1,4 +1,4 @@
-<div class="container-fluid noise">
+<div class="container-fluid banner">
   <div class="header">
 
     <div class="row mb-5 mx-sm-2 mx-md-4 py-4">
@@ -9,22 +9,22 @@
       <div class="col-md-6 text-md-end mt-2 d-none d-md-block">
         <div>
           <a href="mailto:alandavidhenry@gmail.com" class="link-dark link-underline-opacity-0">
-            <p class="d-inline align-middle">alandavidhenry@gmail.com</p> 
-            <i class="bi bi-envelope-at-fill align-middle ms-3" style="font-size: 1.2rem; color: #252d22;"></i>
+            <p class="media-links d-inline align-middle">alandavidhenry@gmail.com</p> 
+            <i class="media-links bi bi-envelope-at-fill align-middle ms-3" style="font-size: 1.2rem;"></i>
           </a>
         </div>
         
         <div>
           <a href="https://www.linkedin.com/in/alandavidhenry/" target="blank" rel="noopener noreferrer" class="link-dark link-underline-opacity-0">
-            <p class="d-inline align-middle">linkedin.com/in/alandavidhenry</p>
-            <i class="bi bi-linkedin d-inline align-middle ms-3" style="font-size: 1.2rem; color: #252d22;"></i>
+            <p class="media-links d-inline align-middle">linkedin.com/in/alandavidhenry</p>
+            <i class="media-links bi bi-linkedin d-inline align-middle ms-3" style="font-size: 1.2rem;"></i>
           </a>
         </div>
         
         <div>
           <a href="https://www.github.com/alandavidhenry/" target="blank" rel="noopener noreferrer" class="link-dark link-underline-opacity-0">
-            <p class="d-inline align-middle">github.com/alandavidhenry</p>
-            <i class="bi bi-github d-inline align-middle ms-3" style="font-size: 1.2rem; color: #252d22;"></i>
+            <p class="media-links d-inline align-middle">github.com/alandavidhenry</p>
+            <i class="media-links bi bi-github d-inline align-middle ms-3" style="font-size: 1.2rem;"></i>
           </a>
         </div>
       </div>
@@ -32,22 +32,22 @@
       <div class="col-md-6 text-md-end mt-2 d-sm-block d-md-none">
         <div>
           <a href="mailto:alandavidhenry@gmail.com" class="link-dark link-underline-opacity-0">
-            <i class="bi bi-envelope-at-fill align-middle me-2" style="font-size: 0.8rem; color: #252d22;"></i>
-            <p class="d-inline align-middle sm-text">alandavidhenry@gmail.com</p> 
+            <i class="media-links bi bi-envelope-at-fill align-middle me-2" style="font-size: 0.8rem;"></i>
+            <p class="media-links d-inline align-middle sm-text">alandavidhenry@gmail.com</p> 
           </a>
         </div>
         
         <div>
           <a href="https://www.linkedin.com/in/alandavidhenry/" target="blank" rel="noopener noreferrer" class="link-dark link-underline-opacity-0">
-            <i class="bi bi-linkedin d-inline align-middle me-2" style="font-size: 0.8rem; color: #252d22;"></i>
-            <p class="d-inline align-middle sm-text">linkedin.com/in/alandavidhenry</p>
+            <i class="media-links bi bi-linkedin d-inline align-middle me-2" style="font-size: 0.8rem;"></i>
+            <p class="media-links d-inline align-middle sm-text">linkedin.com/in/alandavidhenry</p>
           </a>
         </div>
         
         <div>
           <a href="https://www.github.com/alandavidhenry/" target="blank" rel="noopener noreferrer" class="link-dark link-underline-opacity-0">
-            <i class="bi bi-github d-inline align-middle me-2" style="font-size: 0.8rem; color: #252d22;"></i>
-            <p class="d-inline align-middle sm-text">github.com/alandavidhenry</p>
+            <i class="media-links bi bi-github d-inline align-middle me-2" style="font-size: 0.8rem;"></i>
+            <p class="media-links d-inline align-middle sm-text">github.com/alandavidhenry</p>
           </a>
         </div>
       </div>
@@ -129,13 +129,13 @@
             <p *ngIf="website.url"><i class="bi bi-globe2 me-2" style="font-size: 1.5rem;"></i><a 
               href="{{ website.url }}" 
               target="blank" rel="noopener noreferrer"
-              class="link-offset-2 link-underline link-underline-opacity-50 mt-3"
+              class="link-offset-2 link-underline link-underline-opacity-50 mt-3 green-link"
               >{{ website.url | slice:8 }}</a>
             </p>
             <p *ngIf="website.github"><i class="bi bi-github me-2" style="font-size: 1.5rem;"></i><a 
               href="{{ website.github }}" 
               target="blank" rel="noopener noreferrer"
-              class="link-offset-2 link-underline link-underline-opacity-50 mt-3"
+              class="link-offset-2 link-underline link-underline-opacity-50 mt-3 green-link"
               >{{ website.github | slice:8 }}</a>
             </p>
             <p><strong>Technologies used: </strong>{{ website.tech }}</p>
@@ -146,130 +146,3 @@
     </div>
   </div>
 </div>
-
-<!-- phf Modal -->
-<!-- <div class="modal fade" id="phfModal" tabindex="-1" aria-labelledby="phfModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-2" id="phfModalLabel">PIKE HOUSE FARM</h1>
-        
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <a href="http://www.pikehousefarm.co.uk" target="blank" rel="noopener noreferrer">
-          <div id="phfCarouselModal" class="carousel slide mb-4">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../assets/pike_house_farm_lg.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/pike_house_farm_2_lg.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#phfCarouselModal" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#phfCarouselModal" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </a>
-        <div>
-          <p><strong>URL: </strong><a 
-            href="http://www.pikehousefarm.co.uk" 
-            class="link-offset-2 link-underline link-underline-opacity-50 mt-3"
-            >pikehousefarm.co.uk</a></p>
-          <p><strong>Technologies used: </strong>HTML, CSS, Bootstrap, jQuery</p>
-          <p><strong>Description: </strong>A website created to showcase a friend's farm located in the Pennine Hills near Manchester.
-          <br>They supply locally reared meat to nearby butchers and also offer meat packs for local customers.</p> 
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- gob Modal -->
-<!-- <div class="modal fade" id="gobModal" tabindex="-1" aria-labelledby="gobModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-2" id="gobModalLabel">THE GOBLIN STORE</h1>
-        
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <a href="####" target="blank" rel="noopener noreferrer">
-          <div id="gobCarouselModal" class="carousel slide mb-4">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../assets/goblin_store_lg.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/goblin_store_2_lg.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#gobCarouselModal" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#gobCarouselModal" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </a>
-        <div>
-          <p><strong>URL: </strong></p>
-          <p><strong>Technologies used: </strong>HTML, CSS, JavaScript, jQuery, Firebase</p>
-          <p><strong>Description: </strong>A website created during the Intermediate Web Development course offered by <a href="https://withyouwithme.com/" target="blank" rel="noopener noreferrer">With You With Me</a>.
-          <br>I completed this course before being offered a role as a Full Stack Developer with <a href="https://withyouwithme.com/" target="blank" rel="noopener noreferrer">With You With Me</a>.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- gob Modal -->
-<!-- <div class="modal fade" id="sspModal" tabindex="-1" aria-labelledby="sspModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-2" id="sspModalLabel">STUDIO SESSION PLANNER</h1>
-        
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <a href="#" target="blank" rel="noopener noreferrer">
-          <div id="sspCarouselModal" class="carousel slide mb-4">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../assets/studio_session_planner_lg.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/studio_session_planner_2_lg.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#sspCarouselModal" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#sspCarouselModal" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </a>
-        <div>
-          <p><strong>URL: </strong></p>
-          <p><strong>Technologies used: </strong>HTML, CSS, TypeScript, Angular, Firebase</p>
-          <p><strong>Description: </strong>A web-based app that is being devoloped to replace an Excel spreadsheet that was being used in by The Band of The Coldstream Guards to plan recording studio sessions.
-          <br>The Angular framwork was chosen due to its ability to easily pass data between the many compnents needed for this project.</p>
-          <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-50"></a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->

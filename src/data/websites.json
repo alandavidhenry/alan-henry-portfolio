@@ -1,5 +1,18 @@
 [
   {
+    "id": 6,
+    "modalId": "mwp",
+    "picThumb": "../assets/simple_weather_js_sm.jpg",
+    "picLg1": "../assets/simple_weather_js_lg.jpg",
+    "picLg2": "../assets/simple_weather_js_lg.jpg",
+    "picLg3": "",
+    "title": "Minimalist Weather Page Using JS",
+    "url": "https://alandavidhenry.github.io/Minimalist-Weather-Page-PlainJS/",
+    "github": "https://github.com/alandavidhenry/Minimalist-Weather-Page-PlainJS",
+    "tech": "HTML, CSS, JavaScript",
+    "desc": "Simple weather app that uses the weatherapi.com API to fetch data from the chosen location. I have tried to keep this as simple as possible and used only JavaScript linked in the HTML file. I used the fetch function to get the json data from the weather API."
+  },
+  {
     "id": 5,
     "modalId": "ssp",
     "picThumb": "../assets/studio_session_planner_sm.jpg",

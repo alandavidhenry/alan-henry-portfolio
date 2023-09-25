@@ -1,0 +1,21 @@
+@use '../variables' as v;
+
+p {
+  color: v.$dark-green;
+}
+
+.green-link {
+  color: v.$dark-green;
+}
+
+.green-link:hover {
+  text-shadow:
+    -0.3px -0.3px 0 v.$dark-green,
+    0.3px -0.3px 0 v.$dark-green,
+    -0.3px 0.3px 0 v.$dark-green,
+    0.3px 0.3px 0 v.$dark-green;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}

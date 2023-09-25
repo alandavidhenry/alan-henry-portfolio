@@ -2,6 +2,8 @@
 
 .card {
   cursor: pointer;
+  background-color: v.$light-cream;
+  border: none;
   transition: all 0.2s;
 }
 
@@ -9,7 +11,6 @@
   transform: scale(1.05);
 }
 
-.card-body {
-  background: v.$bg1;
-  // background-image: url(/assets/noise20.png);
+.websiteThumbnail {
+  border: solid 1px v.$dark-green-opacity;
 }
